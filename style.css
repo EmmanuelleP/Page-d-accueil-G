@@ -47,9 +47,12 @@
     flex-direction:column;
   }
 
-
     .logobarre
     {
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      justify-content:flex-end;
       padding:15px 15px 15px 15px;
     }
 
@@ -73,9 +76,9 @@
     }
 
       #covid19 a
-    {
-     font-size:small;   
-    }
+      {
+      font-size:small;   
+      }
     
       .gestes
       {
@@ -85,7 +88,11 @@
   footer
   {
     background-color: #eeeeee;
+    
     font-size:smaller;
+    position:fixed;
+    bottom:0;
+    width: 100%;
   }
 
     #pieddepage
